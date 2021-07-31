@@ -1,0 +1,30 @@
+.encabezado {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  display: block;
+}
+
+.encabezado .titulo {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.encabezado .subtitulo {
+  display: block;
+  font-size: 1.8rem;
+  margin: 1rem;
+  width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(125, 129, 242, 0.748);
+  color: #4b2b88;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=estillo.css.map */

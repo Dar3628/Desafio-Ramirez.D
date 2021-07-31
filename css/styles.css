@@ -602,11 +602,11 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+ width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; 
 }
 
 @media (min-width: 576px) {
@@ -10936,7 +10936,7 @@ p {
   color: #47, 53, 111;
 }
 @media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
+  #mainNav .navbar-nav .nav-item .nav-link .item{
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {

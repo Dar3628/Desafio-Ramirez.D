@@ -1,0 +1,55 @@
+.encabezado {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  display: block;
+}
+
+.encabezado .titulo {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.encabezado .subtitulo {
+  display: block;
+  font-size: 1.8rem;
+  margin: 1rem;
+  width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(125, 129, 242, 0.748);
+  color: #4b2b88;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=estilos.css.map */splay: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #fff;
+}
+
+.py-lg-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+/*# sourceMappingURL=estilos.css.map */
