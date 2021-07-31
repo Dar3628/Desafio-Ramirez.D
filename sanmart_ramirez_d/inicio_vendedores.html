@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inicioLogin.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+    </style>
+    <title>inicio_vendedores</title>    
+</head>
+<body>
+    
+    <div class="divUno">
+        <div class="flotarIzq">
+            <a href="index.html">
+                <img class="logo" src="imagenes/logo.png">
+            </a>
+        </div>
+
+        <div class="flotarIzq">
+            <a href="index.html">
+                <h1 class="tituloStilo">Portal de inicio para vendedores</h1>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+    
+    <div id="menuBox">
+        <input type="checkbox"  id="btn-menu">
+        <label for="btn-menu"><img src="imagenes/menu.png"></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>              
+            </ul>
+        </nav>
+    </div>
+
+    <hr>
+
+    <!-- Formularios -->
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+            <li class="iniciarSesion"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+            <li class="registrarse"><a href="#registrarse">Registrarse</a></li>
+        </ul>
+    </div>
+    <div class="contenedor-formularios"
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h2>Iniciar Sesión</h2>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label id="usuario"> </label>
+                        <input type="text" placeholder="Escribe aqui tu usuario">
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label id="contraseña"></label>
+                        <input type="password" placeholder="Escribe aqui tu contraseña">
+                    </div>
+                    <p class="cambioDeContraseña"><a href="#">¿Se te olvidó la contraseña?</a></p>
+                    <input type="submit" class="button button-block" value="Iniciar Sesión">
+                </form>
+            </div>
+            <br>
+            <div>
+            <p class="cambioDeFormulario">o,</p>
+            <p class="cambioDeFormulario">en caso de que aun no te encuentres registrado,</p>
+            </div>
+            <br>
+
+
+            <!-- Registrarse -->
+            <div id="registrarse">
+                <h2>Regístrate</h2>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label id="name"> </label>
+                        <input type="text" placeholder="Escribe aqui tu nombre/s">
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label id="apellido"> </label>
+                        <input type="text" placeholder="Escribe aqui tu apellido">
+                    </div>
+                    </div>
+                    <div class="contenedor-input">
+                        <label id="usuario"> </label>
+                        <input type="text" placeholder="Elije tu nombre de ususario">
+                    </div>
+                    <div class="contenedor-input">
+                        <label id="mail"> </label>
+                        <input type="text" placeholder="Escribe aqui tu direccion de correo electronico">
+                    </div>
+                    <div class="contenedor-input">
+                        <label id="contraseña"></label>
+                        <input type="password" placeholder="Elije tu contraseña y escribela aqui">
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label id="contraseña"></label>
+                        <input type="password" placeholder="Escribe nuevamente aqui la contraseña elegida">
+                    </div>
+
+                    <input type="submit" class="button button-block" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="pieDePagina">
+    
+        <div class="flotarIzq">
+            <p>Tel:+5491122223333</p>
+        </div>
+        <div class="flotarDer">
+            <p>www.plataformadeventas.com/soporte</p>
+        </div>>
+
+     </footer>
+
+</body>
