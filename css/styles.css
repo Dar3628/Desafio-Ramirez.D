@@ -10931,9 +10931,6 @@ p {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #47, 53, 111;
-}
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link .item{
     font-size: 0.9rem;
