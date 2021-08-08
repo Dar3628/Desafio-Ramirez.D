@@ -10948,11 +10948,11 @@ p {
 }
 
 @media (min-width: 992px) {
-  .quienes somos-heading .quienes somos-heading-img {
+  .quienes_somos-heading .quienes_somos-heading-img {
     position: relative;
     z-index: 0;
   }
-  .quienes somos-heading .quienes somos-heading-content {
+  .quienes_somos-heading .quienes_somos-heading-content {
     margin-top: -5rem;
     position: relative;
     z-index: 1;
