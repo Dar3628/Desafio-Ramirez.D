@@ -1,0 +1,23 @@
+{
+  "name": "sanmart-ramirez-d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limpiandocss": "purgecss --css ./css/**.css --content *.html --output  ./otro/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dar3628/Desafio-Ramirez.D.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dar3628/Desafio-Ramirez.D/issues"
+  },
+  "homepage": "https://github.com/Dar3628/Desafio-Ramirez.D#readme",
+  "devDependencies": {
+    "purgecss": "^4.0.3"
+  }
+}

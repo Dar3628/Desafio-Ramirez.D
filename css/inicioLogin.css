@@ -3,17 +3,6 @@ a {
     text-decoration: none;
     color: wheat;
 }
-    
-.contenedor-formularios {
-    padding: 40px;
-    max-width: 600px;
-    margin: 40px auto;
-    border: double;
-    border-color: blueviolet;
-    border-radius: 3px;
-    background-color: whitesmoke;
-    opacity: 0.8;   
-}
 
     
 .contenedor-tabs {
@@ -30,11 +19,6 @@ li a {
     float: center;
     text-align: center;
     cursor: pointer;
-}
-.iniciarSesion a {
-    background: rgb(66, 151, 191);
-    border:solid
-
 }
 .registrarse a {
     background: rgb(66, 151, 191);
@@ -86,18 +70,6 @@ input {
         -moz-animation: cssAnimation 1s 16 linear;
         -o-animation: cssAnimation 1s 16 linear;
         }
-        @-webkit-keyframes cssAnimation {
-        from { -webkit-transform: rotate(0deg) scale(1.056) skew(1deg) translate(0px); }
-        to { -webkit-transform: rotate(0deg) scale(1.034) skew(1deg) translate(0px); }
-        }
-        @-moz-keyframes cssAnimation {
-        from { -moz-transform: rotate(0deg) scale(1.056) skew(1deg) translate(0px); }
-        to { -moz-transform: rotate(0deg) scale(1.034) skew(1deg) translate(0px); }
-        }
-        @-o-keyframes cssAnimation {
-        from { -o-transform: rotate(0deg) scale(1.056) skew(1deg) translate(0px); }
-        to { -o-transform: rotate(0deg) scale(1.034) skew(1deg) translate(0px); }
-        }
         
     
     .button-block {
@@ -107,12 +79,6 @@ input {
         margin-right: auto;
         height: 40px;
         text-align: center;
-    }
-    
-    .cambioDeContraseña {
-        margin-top: -20px;
-        text-align: right;
-        margin-bottom: 20px;
     }
     
     .cambioDeFormulario{
