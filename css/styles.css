@@ -910,7 +910,7 @@ p {
 }
 
 .btn-move{
--webkit-animation: cssAnimation 2.0829s 1 ease-in-out;
+-webkit-animation: cssAnimation 2.0829s 12 ease-in-out;
 -m-webkit-animation: cssAnimation 1s 13 ease-in-out;
 -moz-animation: cssAnimation 1s 1 ease-in-out;
 -o-animation: cssAnimation 1s 1 ease-in-out;
