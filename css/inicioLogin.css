@@ -65,11 +65,7 @@ input {
         color: white;
         background-color: rgb(163, 163, 235);
     }
-    .button {
-        -webkit-animation: cssAnimation 1s 16 linear;
-        -moz-animation: cssAnimation 1s 16 linear;
-        -o-animation: cssAnimation 1s 16 linear;
-        }
+    
         
     
     .button-block {
